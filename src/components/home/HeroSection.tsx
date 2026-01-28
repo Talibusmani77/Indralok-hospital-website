@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import { Calendar, Phone, Stethoscope, Shield, Clock, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { Award, Calendar, Clock, Phone, Shield, Stethoscope } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -88,7 +88,7 @@ const HeroSection = () => {
               {/* Main Image */}
               <div className="w-full aspect-square max-w-lg mx-auto rounded-3xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&h=800&fit=crop"
+                  src="img1.jpeg"
                   alt="Modern Hospital Facility"
                   className="w-full h-full object-cover"
                 />
